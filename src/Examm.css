@@ -1,0 +1,79 @@
+/* Aufgabe 4*/
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 1.5em;
+    Background:lightgray;
+}
+
+
+
+.sticky {
+    position: sticky;
+    top: 0;
+    border: 3px solid gray;
+    text-align: center;
+    padding: 25px;/*Abstand von dem Inhalt und Rand*/
+    margin: 0;/*Abstand der Rand zu anderen Elementen*/
+    Background:lightgray;
+    border-radius: 10px 10px 10px 10px;
+    /* border-top-left-radius: 15px;
+     border-bottom-right-radius: 20px;*/
+
+}
+nav{
+    text-align: center;
+}
+
+
+.fixed {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border: 3px solid gray;
+    background-color: lightgray;
+    text-align: center;
+    padding: 1px;
+    border-radius: 10px 10px 10px 10px;
+}
+#chatAusgabe {
+    border: 0.1em solid black;
+    background-color: white;
+    height: 4em;
+    text-align: left;
+    padding: 1px;
+    border-radius: 10px 10px 10px 10px;
+}
+form {
+    display: block;
+    /*border: 3px solid gray;*/
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+}
+
+.inline {
+    display: inline-block;
+    border: 3px solid gray;
+
+    background-color: lightgray;
+
+    text-align: center;
+
+    padding: 1px;
+    margin: 1px;
+    border-radius: 10px 10px 10px 10px;
+}
+.block {
+    display: block;
+    border: 3px solid gray;
+
+    background-color: beige;
+    text-align: center;
+
+    padding: 1px;
+    margin: 1px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
